@@ -1,0 +1,67 @@
+ body {
+ 	background-color: #3E1B3C;
+
+ }
+ canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #319589;
+  border-radius: 4px;
+
+ }
+
+.btnS {
+  width: 500px;
+  background-color: #3E1B3C;
+  color: #319589;
+  text-align: center;
+  font-size: 24px;
+  padding: 14px;
+  border: 2px solid #319589;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  display: inline-block;
+  border-radius: 4px;
+  font-family: "Lucida Console";
+  position: fixed;
+  top: 5%;
+  cursor: pointer;
+
+}
+
+.btnS:hover {
+    background-color: #319589;
+    color: #3E1B3C;
+}
+
+.btnR {
+  width: 500px;
+  background-color: #3E1B3C;
+  color: #319589;
+  text-align: center;
+  font-size: 24px;
+  padding: 14px;
+  border: 2px solid #319589;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  display: inline-block;
+  border-radius: 4px;
+  font-family: "Lucida Console";
+  position: fixed;
+  top: 86%;
+  cursor: pointer;
+}
+
+.btnR:hover {
+    background-color: #319589;
+    color: #3E1B3C;
+}
+
+
+.buttonHelp {
+  text-align: center;
+  position: relative;
+  left: -250px;
+}
